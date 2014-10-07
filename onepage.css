@@ -1,3 +1,50 @@
+/*
 img {
     display: inline-block;
 }
+
+*/
+h1{
+	
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 144px;
+	font-family: 'Anton', sans-serif;
+	margin:0;
+	
+}
+
+h2{
+	
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 144px;
+	font-family: 'Gloria Hallelujah', cursive;
+	margin:0
+	
+}
+
+
+
+
+html,body {
+	height: 100%;
+	background-color: black;
+	margin: 0;
+	
+	
+
+}  
+
+
+
+}
+
+
+
+
+
+
+
