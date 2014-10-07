@@ -19,15 +19,181 @@ h2{
 	
 	background-color: black;
 	text-align: center;
-	color: white;
-	font-size: 144px;
-	font-family: 'Gloria Hallelujah', cursive;
+	color: #FF9966;
+	font-size: 216px;
+	font-family: 'Shadows Into Light', cursive;
 	margin:0
 	
 }
 
 
+/*get rid of bullets and line up images across page*/
+ul.img-list{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
 
+ul.img-list li{
+	display: inline-block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	/*font-family: 'Shadows Into Light', cursive;*/
+	font-size: 32px;
+	height: 350px;
+	margin: 0;
+	position: relative;
+	width:33%;
+}
+
+/*place text over images*/
+span.text-content {
+background: rgba(0,0,0,0.5);
+color: white;
+
+cursor: pointer;
+display: table;
+height: 350px;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+}
+ 
+span.text-content span {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+
+/*shows text on hover only*/
+span.text-content {
+background: rgba(0,0,0,0.5);
+color: white;
+
+cursor: pointer;
+display: table;
+height: 350px;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+opacity: 0;
+}
+ 
+ul.img-list li:hover span.text-content {
+opacity: 1;
+}
+
+/*the fade!!!!*/
+span.text-content {
+background: rgba(0,0,0,0.5);
+color: white;
+
+cursor: pointer;
+display: table;
+height: 350px;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity 500ms;
+-moz-transition: opacity 500ms;
+-o-transition: opacity 500ms;
+transition: opacity 500ms;
+}
+
+h3{
+	font-size:72px;
+	color: #FF9966;
+	font-family: 'Shadows Into Light', cursive;
+	margin:0;
+	padding-top:5%;
+	
+}
+	
+
+ul.school{
+	font-size: 36px;
+	color:white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	list-style-type:none;
+}
+
+p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	color:white;
+	text-indent:2.5%;
+	padding-left:2.5%;
+	padding-right:2.5%;
+}
+
+/*
+.personal{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	color:white;
+	
+}
+
+	
+	
+
+ul.from{
+	
+	list-style-type:none;
+	width:33%;
+}
+
+ul.familia{
+	
+	list-style-type:none;
+	width:33%;
+	
+}
+
+ul.favorites{
+	
+	list-style-type:none;
+	width:33%;
+}
+
+ul.personalpoints{
+	
+	list-style-type:none;
+}
+
+*/
+
+ul.one{
+	
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	color:white;
+}
+
+ul.one li{
+	margin: 2.5%;
+}
+
+dt{
+	font-size:36px;
+	
+}
+dl{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	color:white;
+}
+
+p.quote{
+	color: #FF9966;
+	text-align:center;
+	
+}
+	
 
 html,body {
 	height: 100%;
@@ -40,7 +206,7 @@ html,body {
 
 
 
-}
+
 
 
 
